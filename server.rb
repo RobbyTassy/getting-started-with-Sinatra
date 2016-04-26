@@ -7,9 +7,5 @@ get '/' do
   "hello world!"
 end
 
-get '/sinatra' do
-  "hello world"
-end
 
 # heroku is a platform as a service (accessing something that runs on the internet)
-# 
