@@ -4,7 +4,7 @@ require 'sinatra'
 # dedicated solely to making new websites.
 
 get '/' do
-  "hello world!"
+  File.read(File.join('public', 'index.html'))
 end
 
 
