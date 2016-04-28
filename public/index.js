@@ -4,5 +4,5 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $('.slider').slider({height: 550});
+    $('.slider').slider({height: 650});
   });
